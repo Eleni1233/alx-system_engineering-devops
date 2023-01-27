@@ -1,2 +1,10 @@
-7-highlander
-7-highlander
+#!/usr/bin/env bash
+# Highlander
+
+# print I am invincible!!! when receiving a SIGTERM signal
+trap "echo I am invincible!!!" SIGTERM
+
+while true; do
+  echo "To infinity and beyond"
+  sleep 2
+done;
