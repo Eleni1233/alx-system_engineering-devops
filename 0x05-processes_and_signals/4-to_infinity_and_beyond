@@ -1,2 +1,7 @@
-4-to_infinity_and_beyond
-4-to_infinity_and_beyond
+#!/usr/bin/env bash
+# To infinity and beyond
+
+while true; do
+  echo "To infinity and beyond"
+  sleep 2
+done
